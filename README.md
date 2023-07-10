@@ -79,9 +79,9 @@ If you would like to add me as a professional contact, you can [send me a connec
 
 
 ```bash
-git clone git@github.com:sj-piano/[repo]
+git clone git@github.com:sj-piano/nodejs-absolute-imports-typescript
 
-cd [repo] && npm install
+cd nodejs-absolute-imports-typescript && npm install
 ```
 
 
