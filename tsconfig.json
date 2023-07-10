@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./",
+    "module": "CommonJS",
+    "moduleResolution": "Node",
+    "outDir": "build",
+    "paths": {
+      "#root/*": ["./*"],
+      "#lib/*": ["lib/*"],
+      "#src/*": ["src/*"]
+    },
+    "sourceMap": true,
+    "strict": true,
+    "target": "es2022"
+  },
+  "exclude": [
+    "node_modules",
+    "build",
+  ],
+  "include": ["*.ts", "lib/**/*.ts", "src/**/*.ts"],
+  "ts-node": {
+    "require": ["tsconfig-paths/register"]
+  }
+}
