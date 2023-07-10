@@ -125,6 +125,8 @@ In `package.json`, `"type"` is deliberately set to be `"commonjs"`. When using N
 
 - [module-alias](https://github.com/ilearnio/module-alias)
 
+- https://www.typescriptlang.org/tsconfig#paths
+
 
 
 
